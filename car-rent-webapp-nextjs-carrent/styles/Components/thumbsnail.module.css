@@ -1,0 +1,18 @@
+.thumbnail{
+    flex-direction: row;
+    display: flex;
+    overflow-x: scroll;
+    margin: 0px 15px;
+}
+.mainImage{
+    width: 100%;
+    object-fit: cover;
+}
+.img{
+    border-radius: 6px;
+    margin: 5px;
+    width:60px;
+    height: 60px;
+    object-fit: cover;
+
+}

@@ -1,0 +1,265 @@
+.MyBookingScreen {
+  background-color: #c6c6c6;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+}
+.top {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.header {
+  font-family: "Prompt";
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 130px;
+  color: #333333;
+}
+.bookingNumber {
+  width: 100%;
+  background-color: #fff;
+  height: 75px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #0068f9;
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.car {
+  margin-top: 15px;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 10px;
+  flex-direction: row;
+  display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.desscription {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.desText {
+  color: #333333;
+  font-family: "Prompt";
+  font-size: 10px;
+  margin-right: 10px;
+}
+.icon {
+  font-size: small;
+  color: #0068f9;
+  margin-right: 2px;
+}
+.titleCar {
+  color: #333333;
+  font-size: 18px;
+  font-family: "Prompt";
+}
+.rental {
+  font-size: 10px;
+  font-family: "Prompt";
+  margin-top: 10px;
+}
+.detailBooking {
+  background-color: #fff;
+  margin-top: 15px;
+  width: 100%;
+  padding: 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.expand {
+  background-color: transparent;
+  border: none;
+  color: #333333;
+}
+.title {
+  font-family: "Prompt";
+  color: #333333;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.detail {
+  font-family: "Prompt";
+  color: #0068f9;
+  font-size: 12px;
+}
+.rowData {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.rowData2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  background-color: #d1e2f9;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.in {
+  color: #333333;
+  font-size: 15;
+  font-family: "Prompt";
+}
+.desin {
+  color: #333333;
+  font-size: 10px;
+  font-family: "Prompt";
+}
+.PriceIn {
+  font-family: "Prompt";
+  color: #333333;
+}
+.payment {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 35px;
+}
+.typePay {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.status {
+  background-color: #fff;
+  margin-top: 15px;
+  width: 100%;
+  padding: 20px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.confirmStatus {
+  background-color: rgb(1, 157, 19);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.waitingStatus {
+  background-color: rgb(255, 119, 45);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.noneStatus {
+  background-color: #c9c9c9;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.cancelStatus {
+  background-color: #ff0000;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.statusRow {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin: 20px 35px;
+}
+.textNone {
+  color: #c9c9c9;
+}
+.textConfirm {
+  color: rgb(1, 157, 19);
+}
+.textWaiting {
+  color: rgb(255, 119, 45);
+}
+.textCancel {
+  color: #ff0000;
+}
+.footerDetail {
+  font-family: "Prompt";
+  font-size: 10px;
+}
+.buttonCancel {
+  background-color: #ff0000;
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  align-items: center;
+}
+.bookingReturn{
+  width: 100%;
+  background-color: #fff;
+  height: 75px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #007d3a;
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+}
+.rentAgain {
+  background-color: #0068f9;
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.bookingCancel{
+  width: 100%;
+  background-color: #fff;
+  height: 75px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #ff0000;
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+}

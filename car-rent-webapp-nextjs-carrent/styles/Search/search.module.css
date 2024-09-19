@@ -1,0 +1,72 @@
+.SearchScreen {
+  background-color: #c6c6c6;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.top {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.header {
+  font-family: "Prompt";
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 130px;
+  color: #333333;
+}
+.search {
+  background-color: #e8e8e8;
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 6px;
+  width: 100%;
+}
+.h3 {
+  font-family: "Prompt";
+  font-weight: normal;
+  font-size: 12px;
+  color: #333333;
+}
+.areaHeader {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.searchArea {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.sort {
+  background-color: #0068f9;
+  color: #fff;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  font-family: "Prompt";
+  font-weight: normal;
+  font-size: 12px;
+  margin: 10px;
+  padding: 2.5px;
+  width: 125px;
+  border-color:  rgba(0, 0, 0, 0);
+  justify-content: space-between;
+}

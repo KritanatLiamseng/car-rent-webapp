@@ -1,0 +1,170 @@
+.sortScreen{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+      width: 100%;
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+.titleHeader {
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 130px;
+    color: #333333;
+  }
+  .container{
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .Select{
+    width: 100%;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    border-color: #c6c6c6;
+    background-color: #fff;
+    color: #333333;
+  }
+  .rateContainer{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  .rateButton{
+    height: 50px;
+    width: 50px;
+    background-color: #EE9A21;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    color:#333333 ;
+
+  }
+  .inrateButton{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 16px;
+    color:#333333 ;
+  }
+  .reviewButton{
+    height: 50px;
+    width: 30%;
+    background-color: #EE9A21;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    color:#fff ;
+  }
+  .inreviewButton{
+    height: 50px;
+    width: 30%;
+    background-color: #ffffff;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    color:#333333 ;
+  }
+  .slider{
+    color: #333333;
+  }
+  .paymentButton{
+    height: 50px;
+    width: auto;
+    background-color: #EE9A21;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    color: #fff;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:#fff ;
+  }
+  .inpaymentButton{
+    height: 50px;
+    width: auto;
+    background-color: #ffffff;
+    border-color: rgba(198, 198, 198, 0.3);
+    border-radius: 6px;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:#333333 ;
+  }
+  .paymentContainer{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  .footer{
+    padding: 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    display: flex;
+  }
+  .clear{
+    padding: 10px 40px;
+    margin-right: 10px;
+    background-color: #c6c6c6;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .submit{
+    padding: 10px 70px;
+    background-color: #0068f9;
+    color: #fff;
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  
+  }

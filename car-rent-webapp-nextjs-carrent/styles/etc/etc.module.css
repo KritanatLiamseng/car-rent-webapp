@@ -1,0 +1,35 @@
+.etc{
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .buttonEtc{
+   border: none;
+   background-color: #fff;
+   margin-bottom: 15px;
+   padding: 12px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   border-radius: 6px;
+   font-family: "Prompt";
+   flex-direction: row;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #333333;
+  }
+  .buttonLogout{
+    border: none;
+    background-color: #0068f9;
+    margin-bottom: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-family: "Prompt";
+    color: #fff;
+  }
+  .titleButton{
+    align-items: center;
+    display: flex;
+  }

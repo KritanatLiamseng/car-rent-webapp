@@ -1,0 +1,132 @@
+.loginScreen {
+  background: linear-gradient(#0068f9, #00347d);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding-top: 35px;
+}
+
+.icon {
+  filter: invert(100%);
+  height: auto;
+  width: 150px;
+  margin-bottom: -50px;
+}
+.h1 {
+  font-family: "Prompt";
+  font-weight: normal;
+  color: #fff;
+}
+.h2 {
+  font-family: "Prompt";
+  font-weight: normal;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.form {
+  margin: 20px;
+  flex-direction: "column";
+}
+.logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.h3 {
+  font-family: "Prompt";
+  font-weight: normal;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.input {
+  border-radius: 6px;
+  padding: 17.5px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: none;
+  border: 1.5px;
+  margin-top: 7.5px;
+  background-color: #fff;
+  color: #333333;
+}
+.forgetPassword {
+  font-family: "Prompt";
+  font-size: 14px;
+  font-weight: inherit;
+  margin-bottom: 12.5px;
+  margin-top: 12.5px;
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+.loginButton {
+  background-color: #0068f9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-color: rgba(0, 0, 0, 0);
+}
+.lineContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.lineStyle {
+  flex: 1;
+  border-top: 1px solid #ccc;
+}
+.orTextStyle {
+  padding: 0 25px;
+  font-family: "Prompt";
+  font-size: 14px;
+  color: #fff;
+}
+.fbButton{
+    background-color: #4267B2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: "Prompt";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.iconButton{
+    height: auto;
+    width: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.etcButton{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    font-family: "Prompt";
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+ 
+}

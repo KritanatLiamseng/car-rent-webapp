@@ -1,0 +1,58 @@
+.top {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 75px;
+}
+.header {
+  font-family: "Prompt";
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 120px;
+  color: #333333;
+}
+.profileContainer {
+  padding: 20px 10px;
+  font-family: "Prompt";
+}
+.textInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1.5px solid #c6c6c695;
+  font-family: "Prompt";
+  margin-top: 10px;
+  background-color: #fff;
+  color: #333333;
+}
+.profileScreen {
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+}
+.title {
+  margin-top: 10px;
+  color: #333333;
+}
+.footer {
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 10px;
+}
+.button {
+  background-color: #0068f9;
+  width: 100%;
+  font-family: "Prompt";
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}

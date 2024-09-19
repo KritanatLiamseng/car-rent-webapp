@@ -1,0 +1,322 @@
+.mainScreen {
+  height: 100vh;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background-color: #c6c6c6;
+
+
+}
+.top {
+  background: linear-gradient(to right, #0068f9, #00347d);
+  display: flex;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-family: "Prompt";
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5cm;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  flex-direction: row;
+  margin-left: 0.5cm;
+  align-items: center;
+  display: flex;
+}
+.icon2 {
+  height: auto;
+  width: 50px;
+  filter: invert(100%);
+  margin-bottom: -20px;
+}
+.icon {
+  height: auto;
+  width: 50px;
+  filter: invert(100%);
+  margin-right: 10px;
+}
+.container {
+background-color: #fff;
+  flex-direction: column;
+  padding: 10px;
+padding-bottom: 100px;
+
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+
+
+
+}
+.InactiveMenu {
+  color: #333333;
+  font-family: "Prompt";
+  font-size: 13px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0);
+}
+.ActiveMenu {
+  color: #0068f9;
+  font-family: "Prompt";
+  font-size: 13px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0);
+}
+.Inactivemenu2 {
+  color: #333333;
+  font-family: "Prompt";
+  font-size: 13px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0);
+}
+.Activemenu2 {
+  color: #0068f9;
+  font-family: "Prompt";
+  font-size: 13px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: rgba(0, 0, 0, 0);
+}
+.seachButton {
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 13px;
+  flex-direction: column;
+  background: linear-gradient(#0068f9, #00347d);
+  border-radius: 90px;
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  position: absolute;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+.buttonArea {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: #fff;
+}
+.buttonArea2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.centerButton {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  font-family: "Prompt";
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+}
+.image {
+  height: 4.7cm;
+  width: auto;
+  border-radius: 5px;
+  position: relative;
+}
+.slider {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+.box {
+  height: 200px;
+  margin-top: 10px;
+}
+.state {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.InactiveRental {
+  width: 50%;
+  display: flex;
+  background-color: #fff;
+  color: #333333;
+  font-family: "Prompt";
+  height: 75px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border: rgba(0, 0, 0, 0);
+}
+.ActiveRental {
+  width: 50%;
+  display: flex;
+  background-color: #0068f9;
+  color: #fff;
+  font-family: "Prompt";
+  height: 75px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border: rgba(0, 0, 0, 0);
+}
+.imgrental {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.coming {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 20px 10px;
+  box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+
+}
+.rowData {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  background-color: #fff;
+}
+.rowTitle {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.iconData {
+  color: #0068f9;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.titleData {
+  color: #333333;
+  font-family: "Prompt";
+  font-size: 12px;
+}
+.titleData2 {
+  color: #0068f9;
+  font-family: "Prompt";
+  font-size: 12px;
+}
+.stateData {
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 11px;
+  background-color: #ffa625;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.stateNone {
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 11px;
+  background-color: #c9c9c9;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 175px;
+  justify-content: center;
+  display: flex;
+}
+.stateReturn {
+  color: #fff;
+  font-family: "Prompt";
+  font-size: 11px;
+  background-color: #007d3a;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 175px;
+  justify-content: center;
+  display: flex;
+}
+.messages{
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.imgMessage{
+ width: 60px;
+ height: 60px;
+ object-fit: cover;
+ border-radius: 6px;
+}
+.infoMessage{
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.rentNumber{
+  font-family: "Prompt";
+  font-size: 10px;
+  margin-top: 10px;
+  color: #333333;
+}
+.rentItem{
+  font-family: "Prompt";
+  color: #333333;
+}
+.etc{
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  padding: 10px;
+  flex-direction: column;
+  
+}
+.buttonEtc{
+ border: none;
+ background-color: #fff;
+ margin-bottom: 15px;
+ padding: 12px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ border-radius: 6px;
+ font-family: "Prompt";
+ flex-direction: row;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #333333;
+}
+.buttonLogout{
+  border: none;
+  background-color: #0068f9;
+  margin-bottom: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  font-family: "Prompt";
+  color: #fff;
+}
+.titleButton{
+  align-items: center;
+  display: flex;
+}

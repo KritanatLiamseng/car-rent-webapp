@@ -1,0 +1,139 @@
+.resultScreen{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Prompt";
+    background-color: #fff;
+    justify-content: space-between;
+}
+.header {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    align-items: center;
+  }
+  .titleHeader {
+    font-family: "Prompt";
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 130px;
+    color: #333333;
+  }
+  .container{
+    background-color: #fff;
+    padding: 20px 10px;
+    margin-top: 10px;
+    font-family: "Prompt";
+    height: 100%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  .input{
+    font-family: "Prompt";
+    font-size: 16px;
+    padding: 7.5px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1.5px solid #e2e2e2;
+    background-color:#fff;
+    color: #333333;
+  }
+  .footer {
+    background-color: #fff;
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .buttonNext{
+    background-color: #0068f9;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  .payment{
+    flex-direction: column;
+    display: flex;
+    padding: 10px 10px;
+  }
+  .incashButton{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-family: "Prompt";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid #e2e2e2;
+    margin-bottom: 20px;
+
+    color: #333333;
+  }
+  .AccashButton{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-family: "Prompt";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 2px solid #0068f9;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    color: #333333;
+  }
+  .inbankbutton{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1.5px solid #e2e2e2;
+    border-radius: 6px;
+    color: #333333;
+  }
+  .Acbankbutton{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #0068f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  .imgBank{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px
+  }
+  .areaButton{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .completeScreen{
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+    font-family: "Prompt";
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

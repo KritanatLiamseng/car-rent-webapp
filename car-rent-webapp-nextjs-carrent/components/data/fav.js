@@ -1,0 +1,73 @@
+const favData = [
+    {
+        id: 1,
+        imageUrl: "/car/MZ.jpg",
+        title: "Mazda 2 2017",
+        type:'รถขนาดเล็ก',
+        transmission:'ออโต้',
+        seat:'5',
+
+        bag:2,
+        service1:"บริการรับส่งรถนอกสถานที่",
+        service2:"ประกันภัยพื้นฐาน",
+        service3:"การันตีราคาเดียวกันหน้าร้าน",
+        rental: "สไมล์รถเช่า",
+        rentalImage:"/car/example-car3.jpg",
+        rate:"8.5",
+        amountRate:"(235)",
+        price:"1,999"
+        
+      },
+      {
+        id: 2,
+        imageUrl: "/car/altis.jpg",
+        title: "Toyota Altis 2019",
+        type:'รถขนาดเล็ก',
+        transmission:'ออโต้',
+        seat:'5',
+        bag:2,
+        service1:"บริการรับส่งรถนอกสถานที่",
+        service2:"ประกันภัยพื้นฐาน",
+        service3:"การันตีราคาเดียวกันหน้าร้าน",
+        rental: "สไมล์รถเช่า",
+        rentalImage:"/car/example-car3.jpg",
+        rate:"8.5",
+        amountRate:"(245)",
+        price:"1,999"
+      },
+      {
+        id: 3,
+        imageUrl: "/car/jazz.jpg",
+        title: "Honda Jazz 2017",
+        type:'รถขนาดเล็ก',
+        transmission:'ออโต้',
+        seat:'5',
+        bag:2,
+        service1:"บริการรับส่งรถนอกสถานที่",
+        service2:"ประกันภัยพื้นฐาน",
+        service3:"การันตีราคาเดียวกันหน้าร้าน",
+        rental: "สไมล์รถเช่า",
+        rentalImage:"/car/example-car3.jpg",
+        rate:"8.5",
+        amountRate:"(235)",
+        price:"1,799"
+      },
+      {
+        id: 4,
+        imageUrl: "/car/jazz.jpg",
+        title: "Honda Jazz 2017",
+        type:'รถขนาดเล็ก',
+        transmission:'ออโต้',
+        seat:'5',
+        bag:2,
+        service1:"บริการรับส่งรถนอกสถานที่",
+        service2:"ประกันภัยพื้นฐาน",
+        service3:"การันตีราคาเดียวกันหน้าร้าน",
+        rental: "สไมล์รถเช่า",
+        rentalImage:"/car/example-car3.jpg",
+        rate:"8.5",
+        amountRate:"(1)",
+        price:"599"
+      },
+]
+export default favData

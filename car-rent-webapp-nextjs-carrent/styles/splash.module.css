@@ -1,0 +1,20 @@
+.splashscreen{
+    background: linear-gradient(#0068f9,#00347d);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.text{
+    font-family: 'Prompt';
+    font-weight: normal;
+    color: #fff;
+}
+.icon{
+    filter: invert(100%);
+    height: auto;
+    width: 300px;
+    margin-bottom: -75px;
+}

@@ -1,0 +1,36 @@
+const rentalData =[
+{
+    id:1,
+    imageUrl: "/car/MZ.jpg",
+    title: "Mazda 2 2017",
+    rentNumber:"0123456789",
+    date:"15/07/22 10:00 - 16/07/22 10:00",
+    day:"1",
+    PickUp:"เชียงราย",
+    DropOff:"สนามบินเชียงราย",
+    statusRental:"return",
+    transmission:'ออโต้',
+    seat:5,
+    bag:2,
+    rental: "สไมล์รถเช่า",
+    type:'รถขนาดเล็ก',
+},
+{
+    id:2,
+    imageUrl: "/car/altis.jpg",
+    title: "Toyota Altis 2019",
+    rentNumber:"1987654321",
+    date:"15/07/22 10:00 - 16/07/22 10:00",
+    day:"1",
+    PickUp:"เชียงราย",
+    DropOff:"สนามบินเชียงราย",
+    statusRental:"cancel",
+    transmission:'ออโต้',
+    seat:5,
+    bag:2,
+    rental: "สไมล์รถเช่า",
+    type:'รถขนาดเล็ก',
+},
+
+]
+export default rentalData
